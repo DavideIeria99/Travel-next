@@ -68,7 +68,7 @@ export default async function details({ params }: Props) {
 					</>
 				)}
 			</section>
-			<section className="p-4 flex justify-around gap-3">
+			<section className="p-4 gap-3">
 				{article &&
 					article.map((el) => (
 						<section key={el.id}>

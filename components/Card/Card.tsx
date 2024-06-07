@@ -15,11 +15,11 @@ export default function Card({ city }: cityProps) {
 	return (
 		<section
 			ref={scrollTrigger}
-			className={`w-full   border group bg-white border-slate-200 p-2  rounded shadow-2xl hover:scale-110 duration-300 
+			className={`w-full  border group  bg-white border-slate-200 p-2  rounded shadow-2xl hover:scale-110 duration-300 
 				${isInView ? `opacity-1  ` : "opacity-0"}`}>
 			<div className="overflow-hidden">
 				<Image
-					className="bg-cover bg-center group-hover:scale-150   duration-500"
+					className="bg-cover bg-center "
 					width={500}
 					height={100}
 					alt="image"

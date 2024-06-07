@@ -22,7 +22,7 @@ export default async function blog() {
 		<>
 			<Header header={header} />
 			<h2 className="my-5 ms-2">ultimi articoli</h2>
-			<section className="mb-5 ms-2 p-2 grid grid-cols-3 gap-10 overflow-hidden">
+			<section className="  p-10 grid grid-cols-3 gap-10 ">
 				{city.map((el) => (
 					<Card
 						key={el.id}
