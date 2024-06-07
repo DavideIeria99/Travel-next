@@ -45,7 +45,7 @@ export default async function details({ params }: Props) {
 
 	return (
 		<>
-			<section className="flex justify-between mt-24 p-5">
+			<section className="flex justify-between mt-24 p-5 ">
 				{city && (
 					<>
 						<Image
@@ -54,10 +54,10 @@ export default async function details({ params }: Props) {
 							alt={city.name}
 							src={city.image}
 						/>
-						<div className="w-1/2">
+						<div className="w-1/2  ">
 							<h2>{city.name}</h2>
 							<p>{city.description}</p>
-							<ul>
+							<ul className="border-double border-4 border-sky-500 w-2/5 p-3 ">
 								<li>Altitudine: {city.altitude}m s.l.m</li>
 								<li>Area: {parseFloat(city.area.toString())} km^2 </li>
 								<li>
